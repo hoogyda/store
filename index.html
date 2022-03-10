@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        
+            <a class="header__logo" href="#">
+                <img src="img/logo.svg" alt="Логотип">
+            </a>
+            <h1 class="header__title">GAME STORE</h1>
+            <input type="text" placeholder="Найти игру">
+
+            <nav>
+                <ul class="header__list">
+                    <li><a href="" class="header__item header__item-white">Игры</a></li>
+                    <li><a href="" class="header__item">Новости</a></li>
+                    <li><a href="" class="header__item">Последние релизы</a></li>
+                    <li><a href="" class="header__item">Библиотека</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="header__profile">
+                <img src="img/User.png" alt="Картинка профиля">
+            </a>
+
+            <a href="#" class="header__logout">
+                <img src="img/logout.svg" alt="Картинка выход">
+                Выход
+            </a>
+
+            <div class="burger-menu">
+                <div class="burger-menu-item burger-menu-item-first"></div>
+                <div class="burger-menu-item burger-menu-item-second"></div>
+                <div class="burger-menu-item burger-menu-item-third"></div>
+            </div>
+
+    </header>
+
+    <main class="main__container">
+
+        <section class="game-info">
+                <div class="game-info__textBox">
+                    <p class="game-info__nav">Главная / Игры / Death Stranding</p>
+                    <h1>Death Stranding</h1>
+                    <img class="type-device" src="img/PC.png" alt="Иконка ПК">
+                    <img class="type-device" src="img/XBOX.png" alt="Иконка XBOX">
+                    <img class="type-device" src="img/PS.png" alt="Иконка PlayStation">
+                    <p>Легендарный разработчик Хидео Кодзима выпускает новую знаковую для жанра игру.
+                        Сэм Бриджес должен преодолеть мир, трансформированный Петлёй смерти. Держа в своих руках бессвязные остатки нашего будущего, он отправился в дорогу, чтобы восстановить связь между осколками мира.
+                        В главных ролях: Норман Ридус, Мадс Миккельсен, Леа Сейду и Линдси Вагнер.
+                    </p>
+                    <span class="game-info__current-price">1049 ₽</span>
+                    <img class="first-price" src="img/price.svg" alt="">
+                    
+                    <div>
+                        <button class="buy-now">Купить сейчас</button>
+                        <button class="cart">Добавить в корзину</button>
+                    </div>
+
+                </div>
+
+            <div class="game-info__creenshots">
+            <img src="img/main-image.jpg" alt="Скриншот DeathStranding" class="game-info__main-screen">
+                <div class="game-info__slider">
+                    <img src="img/screen1.png" alt="">
+                    <img src="img/screen2.png" alt="">
+                    <img src="img/screen3.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="game-cards">
+
+            <div class="game-cards__info">
+                <span>Распродажи</span>
+                <a href="#" class="see-more">Смотреть всё</a>
+            </div>
+
+
+            <div class="game-cards__wrapper">
+                <div class="game-card">
+                    <img src="img/card1.png" alt="">
+                    
+
+                        <div class="game-card-text">
+                            <p class="game-card__title">Borderlands 3</p>
+                            <span class="game-card__price">499 ₽</span>
+                        </div>
+
+                </div>
+                
+                <div class="game-card">
+                    <img src="img/card2.png" alt="">
+                    <div class="game-card-text">
+                        <p class="game-card__title">The Outer Worlds</p>
+                        <span class="game-card__price">659 ₽</span>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <img src="img/card3.png" alt="">
+                    <div class="game-card-text">
+                        <p class="game-card__title">Red Dead Redemption 2</p>
+                        <span class="game-card__price">1249 ₽</span>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="img/card4.png" alt="">
+                    <div class="game-card-text">
+                        <p class="game-card__title">Factorio</p>
+                        <span class="game-card__price">659 ₽</span>
+                    </div>
+                </div>
+           </div>
+        
+        </section>
+
+    </main>
+
+    <footer class="footer">
+            <p>Game Store 2022</p>
+            <p>© Все права защищены</p>
+            <a href="#">Пользовательское соглашение</a>
+
+    </footer>
+</body>
+</html>
